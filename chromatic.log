@@ -8,16 +8,16 @@ Authenticated with Chromatic
     → Using project token '****************3391'
 Retrieving git information
 Retrieved git information
-    → Commit 'b1f9e38' on branch 'lesson05_deploy'; found 1 parent build
+    → Commit '2f49212' on branch 'lesson05_deploy'; found 1 parent build
 Collecting Storybook metadata
 Collected Storybook metadata
     → Storybook 7.5.2 for React; using the @storybook/react-vite builder (7.5.2); supported addons found: Links, Essentials, Interactions
 Initializing build
 Initialized build
-    → Build 2 initialized
+    → Build 3 initialized
 Building your Storybook
-    → Running command: yarn run build-storybook --output-dir /var/folders/d8/l9m9n7x16sz2_k7yz545sb880000gn/T/chromatic--57999-rkPi7o4FcRu4
-Storybook built in 16 seconds
+    → Running command: yarn run build-storybook --output-dir /var/folders/d8/l9m9n7x16sz2_k7yz545sb880000gn/T/chromatic--60391-Zc88xTt5NrG3
+Storybook built in 17 seconds
     → View build log at /Users/h-2914/git/taskbox2/build-storybook.log
 Publish your built Storybook
     → Validating Storybook files
@@ -28,58 +28,65 @@ Publishing your built Storybook
     → [=                   ] 6%
     → [==                  ] 10%
     → [==                  ] 11%
-    → [===                 ] 13%
-    → [===                 ] 15%
+    → [===                 ] 14%
     → [===                 ] 16%
-    → [====                ] 21%
+    → [====                ] 18%
     → [=====               ] 25%
-    → [======              ] 30%
+    → [======              ] 28%
+    → [======              ] 31%
+    → [=======             ] 33%
     → [=======             ] 34%
+    → [=======             ] 35%
+    → [=======             ] 36%
     → [=======             ] 37%
+    → [========            ] 38%
     → [========            ] 39%
     → [========            ] 40%
+    → [========            ] 42%
     → [=========           ] 43%
     → [=========           ] 45%
-    → [=========           ] 47%
-    → [==========          ] 50%
+    → [=========           ] 46%
+    → [==========          ] 48%
+    → [==========          ] 49%
+    → [==========          ] 51%
+    → [==========          ] 52%
     → [===========         ] 53%
-    → [===========         ] 55%
+    → [===========         ] 56%
     → [============        ] 58%
-    → [============        ] 60%
-    → [============        ] 61%
-    → [============        ] 62%
-    → [=============       ] 63%
     → [=============       ] 64%
     → [=============       ] 65%
     → [=============       ] 66%
-    → [=============       ] 67%
     → [==============      ] 68%
     → [==============      ] 69%
     → [==============      ] 70%
     → [==============      ] 71%
     → [==============      ] 72%
+    → [===============     ] 73%
     → [===============     ] 74%
     → [===============     ] 75%
     → [===============     ] 76%
+    → [===============     ] 77%
     → [================    ] 78%
     → [================    ] 79%
     → [================    ] 80%
-    → [================    ] 82%
+    → [================    ] 81%
+    → [=================   ] 83%
     → [=================   ] 84%
-    → [=================   ] 85%
+    → [=================   ] 86%
+    → [=================   ] 87%
     → [==================  ] 88%
-    → [==================  ] 91%
-    → [=================== ] 94%
+    → [==================  ] 89%
+    → [==================  ] 92%
     → [=================== ] 96%
-    → [=================== ] 97%
+    → [====================] 98%
     → [====================] 99%
     → [====================] 100%
-Publish complete in 13 seconds
-    → View your Storybook at https://65548ccee4cb247282a5dbf6-ngfouknlgc.chromatic.com
+Publish complete in 15 seconds
+    → View your Storybook at https://65548ccee4cb247282a5dbf6-eseglrquqc.chromatic.com
 Verifying your Storybook
     → This may take a few minutes
-Started build 2
-    → View build details at https://www.chromatic.com/build?appId=65548ccee4cb247282a5dbf6&number=2
+Started build 3
+    → View build details at https://www.chromatic.com/build?appId=65548ccee4cb247282a5dbf6&number=3
 Running 9 tests
     → This may take a few minutes
 ℹ Speed up Continuous Integration
@@ -87,10 +94,14 @@ Your project is linked to GitHub so Chromatic will report results there.
 This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
 Read more here: https://www.chromatic.com/docs/cli#chromatic-options
     → [==                  ] 1/9  InboxScreen › Default 
+    → [====                ] 2/9  InboxScreen › Error 
     → [=======             ] 3/9  Task › Default 
+    → [=========           ] 4/9  Task › Pinned 
     → [===========         ] 5/9  Task › Archived 
+    → [=============       ] 6/9  TaskList › Default 
     → [================    ] 7/9  TaskList › With Pinned Tasks 
+    → [==================  ] 8/9  TaskList › Loading 
     → [====================] 9/9  TaskList › Empty 
-✔ Build 2 passed!
+✔ Build 3 passed!
 No visual changes were found in this build.
-ℹ View build details at https://www.chromatic.com/build?appId=65548ccee4cb247282a5dbf6&number=2
+ℹ View build details at https://www.chromatic.com/build?appId=65548ccee4cb247282a5dbf6&number=3
