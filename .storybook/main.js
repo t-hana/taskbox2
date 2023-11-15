@@ -14,5 +14,8 @@ const config = {
   docs: {
     autodocs: "tag",
   },
+  chromatic: {
+    projectToken: process.env.CHROMATIC_PROJECT_TOKEN,
+  },
 };
 export default config;
