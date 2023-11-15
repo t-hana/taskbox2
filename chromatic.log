@@ -1,0 +1,109 @@
+
+Chromatic CLI v9.0.0
+https://www.chromatic.com/docs/cli
+
+Authenticating with Chromatic
+    → Connecting to https://index.chromatic.com
+Authenticated with Chromatic
+    → Using project token '****************3391'
+Retrieving git information
+Retrieved git information
+    → Commit '5ef4cc9' on branch 'lesson05_deploy'; no ancestor found
+Collecting Storybook metadata
+Collected Storybook metadata
+    → Storybook 7.5.2 for React; using the @storybook/react-vite builder (7.5.2); supported addons found: Links, Essentials, Interactions
+Initializing build
+Initialized build
+    → Build 1 initialized
+Building your Storybook
+    → Running command: yarn run build-storybook --output-dir /var/folders/d8/l9m9n7x16sz2_k7yz545sb880000gn/T/chromatic--56968-OflgBf3Q4scx
+Storybook built in 18 seconds
+    → View build log at /Users/h-2914/git/taskbox2/build-storybook.log
+Publish your built Storybook
+    → Validating Storybook files
+Publishing your built Storybook
+    → Retrieving target location
+    → Starting publish
+    → [                    ] 0%
+    → [=                   ] 6%
+    → [==                  ] 8%
+    → [==                  ] 10%
+    → [===                 ] 13%
+    → [===                 ] 14%
+    → [===                 ] 16%
+    → [====                ] 19%
+    → [====                ] 22%
+    → [=====               ] 24%
+    → [=====               ] 25%
+    → [=====               ] 27%
+    → [======              ] 31%
+    → [=======             ] 34%
+    → [=======             ] 35%
+    → [=======             ] 37%
+    → [========            ] 40%
+    → [=========           ] 43%
+    → [=========           ] 45%
+    → [=========           ] 47%
+    → [==========          ] 49%
+    → [==========          ] 50%
+    → [==========          ] 51%
+    → [===========         ] 54%
+    → [===========         ] 55%
+    → [============        ] 59%
+    → [============        ] 62%
+    → [==============      ] 69%
+    → [==============      ] 70%
+    → [==============      ] 71%
+    → [==============      ] 72%
+    → [===============     ] 73%
+    → [===============     ] 74%
+    → [===============     ] 75%
+    → [===============     ] 76%
+    → [===============     ] 77%
+    → [================    ] 78%
+    → [================    ] 79%
+    → [================    ] 80%
+    → [=================   ] 83%
+    → [=================   ] 84%
+    → [=================   ] 85%
+    → [=================   ] 86%
+    → [=================   ] 87%
+    → [==================  ] 88%
+    → [==================  ] 89%
+    → [==================  ] 90%
+    → [==================  ] 91%
+    → [=================== ] 93%
+    → [=================== ] 94%
+    → [=================== ] 95%
+    → [=================== ] 96%
+    → [=================== ] 97%
+    → [====================] 98%
+    → [====================] 99%
+    → [====================] 100%
+Publish complete in 16 seconds
+    → View your Storybook at https://65548ccee4cb247282a5dbf6-uuayfvjdlm.chromatic.com
+Verifying your Storybook
+    → This may take a few minutes
+Started build 1
+    → Continue setup at https://www.chromatic.com/setup?appId=65548ccee4cb247282a5dbf6
+Running 9 tests
+    → This may take a few minutes
+ℹ Speed up Continuous Integration
+Your project is linked to GitHub so Chromatic will report results there.
+This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
+Read more here: https://www.chromatic.com/docs/cli#chromatic-options
+    → [==                  ] 1/9  InboxScreen › Default 
+    → [====                ] 2/9  InboxScreen › Error 
+    → [=======             ] 3/9  Task › Default 
+    → [===========         ] 5/9  Task › Archived 
+    → [=============       ] 6/9  TaskList › Default 
+    → [================    ] 7/9  TaskList › With Pinned Tasks 
+    → [==================  ] 8/9  TaskList › Loading 
+    → [====================] 9/9  TaskList › Empty 
+✔ Build passed. Welcome to Chromatic!
+We found 3 components with 9 stories and took 9 snapshots.
+ℹ Please continue setup at https://www.chromatic.com/setup?appId=65548ccee4cb247282a5dbf6
+Build 1 auto-accepted
+    → Tested 9 stories across 3 components; captured 9 snapshots in 34 seconds
+
+
